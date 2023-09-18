@@ -22,9 +22,9 @@ const NavBar = () => {
         <InfinitySpin width='200' color="#4fa94d"/>
         </div>
         {/* navigation */}
-        <div className="py-4 px-7 flex justify-between items-center">
+        <div className="py-4 px-7 flex justify-between items-center shadow-lg shadow-black">
             <div className="flex gap-3 items-center">
-                <img src="https://i.ibb.co/MnYvpGv/short.jpg" alt="" className="w-14 h-14 rounded-full" />
+                <img src="https://i.ibb.co/s9D4r5t/20210922213638-IMG-5471-1.jpg" alt="" className="w-14 h-14 rounded-full" />
                 <span className="font-bold text-2xl uppercase hidden lg:block">Mostak Ahmed</span>
                 <span className="font-bold text-2xl uppercase lg:hidden">Mostak</span>
             </div>
