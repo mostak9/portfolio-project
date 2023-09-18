@@ -5,7 +5,7 @@ import {ImLocation} from 'react-icons/im'
 const Banner = () => {
     return (
         <div className="max-w-7xl mx-auto mt-16 flex flex-col lg:flex-row gap-10">
-            <div className='w-1/3 flex flex-col gap-9'>
+            <div className='lg:w-1/3 flex flex-col gap-9'>
                 <div className='p-6 shadow-lg shadow-black hover:shadow-none'>
                     <h1 className="text-4xl font-bold">Hi, I'm <span className="text-sky-600">Mostak Ahmed</span></h1>
                     <p className="mt-4 font-medium text-xl">Front-end Web developer from Bangladesh</p>

@@ -37,7 +37,7 @@ const NavBar = () => {
                     
                 </div>
                 <ul className={`lg:flex absolute right-0 duration-1000 bg-black lg:bg-base-100 px-2 rounded-md lg:static text-right ${
-                    open ? 'top-16' : '-top-96'
+                    open ? 'top-24' : '-top-96'
                 }`}>
                     {
                         routes.map((route, idx) => <Route key={idx} route={route}></Route>)
